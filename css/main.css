@@ -1,0 +1,99 @@
+/* Definindo a margem e o espaçamento do body como 0 e trocando a família das fontes das páginas. */
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+/* Alinhando o h1 no centro da página */
+h1 {
+    text-align: center;
+}
+
+/* 
+Formatações referente ao menu de navegação na horizontal.
+
+Definindo a cor do fundo do menu e alinhando no centro.
+*/
+.navbar {
+    background-color: #333;
+    text-align: center;
+}
+
+/* Retirando os pontos dos itens da lista e definindo a margem e espaçamento interno como 0. */
+.navbar ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+/* Exibindo cada item da lista um na frente do outro, em linha, mas cada item fica em bloco. */
+.navbar li {
+    display: inline-block;
+}
+
+/* Exibindo os links em block de linhas e definindo a cor da letra em branco, 
+negrito e alinhando no centro, além de colocar um espaçamento e retirando o sublinhado do link. */
+.navbar li a {
+    display: inline-block;
+    color: white;
+    font-weight: bolder;
+    text-align: center;
+    padding: 15px 15px;
+    text-decoration: none;
+}
+
+/* Ao passar o mouse por cima de cada item a cor do fundo muda para preto. */
+.navbar li a:hover {
+    background-color: black;
+}
+
+/* 
+Formatações referente ao cartões usados para mostrar o conteúdo principal.
+
+Exibindo em bloco e definindo a cor do fundo, alinhando no centro, margens, espaçamentos e bordas,
+além de definir seu tamanho máximo como 50% da página.
+*/
+.cartao {
+    display: block;
+    background-color: rgba(211, 211, 211, 0.15);
+    border-radius: 5px;
+    padding: 20px;
+    height: auto;
+    width: 50%;
+    text-align: center;
+    margin: 0 auto;
+    margin-top: 20px;
+}
+
+/* Formatando as listas contidas dentro de cada cartão de informação, 
+as listas ficam no centro do cartão e seu texto alinhado a esquerda.
+*/
+.cartao ul {
+    display: inline-block;
+    text-align: left;
+    padding: 10px 0;
+    margin: 0;
+}
+
+/* Margem nos parágrafos */
+.cartao p {
+    margin: 10px;
+}
+
+/* Os dois próximos blocos definem o formulário de contato como bloco, para que cada item fique embaixo do outro.*/
+.cartao label {
+    display: block;
+}
+
+.cartao input {
+    width: 50%;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.cartao textarea {
+    width: 50%;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
